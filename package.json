@@ -1,0 +1,29 @@
+{
+  "scripts": {
+    "dev": "webpack -d --watch",
+    "build": "webpack -p"
+  },
+  "devDependencies": {
+    "css-loader": "^0.25.0",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "react": "^15.2.1",
+    "style-loader": "^0.13.1"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "image-webpack-loader": "^3.0.0",
+    "img-loader": "^1.2.0",
+    "normalize": "^0.3.1",
+    "normalize-css": "^2.3.1",
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1",
+    "react-image-preloader": "^1.0.2",
+    "react-imageloader": "^2.1.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.1"
+  }
+}
