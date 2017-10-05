@@ -1,0 +1,40 @@
+.home-page {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: @text-color-primary;
+  font-family: 'Baumans', cursive;
+
+  hr {
+    width: 40rem;
+    margin: 40px 0;
+  }
+
+  .name {
+    font-size: 1rem;
+    transition: font-size 3s;
+    &.active {
+      font-size: 7rem;
+    }
+    span {
+      color: @text-color-secondary;
+    }
+  }
+
+  .menu {
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    a {
+      text-decoration: none;
+      margin: 0 15px;
+      color: @text-color-primary;
+      cursor: pointer;
+      &:hover {
+        color: @text-color-secondary;
+      }
+    }
+  }
+}

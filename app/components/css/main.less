@@ -1,19 +1,20 @@
-html, body, #app {
+@import "./variables.less";
+@import "./home-page.less";
+@import "./photo-page.less";
+@import url('https://fonts.googleapis.com/css?family=Baumans|Montserrat:300');
+
+html, body {
   margin: 0;
   padding: 0;
   font-size: 16px;
-  transition: font-size 0.5s;
-  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
 }
 
-@media screen and (max-width: 1024px)  {
-  html, body {
-    font-size: 70%;
-  }
-}
-
-@media screen and (max-width: 667px)  {
-  html, body {
-    font-size: 60%;
-  }
+#app, #top {
+  display: flex;
+  flex: 1;
+  background: @background-secondary;
+  overflow: auto;
 }
